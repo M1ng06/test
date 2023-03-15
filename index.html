@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/iframe.css">
     <link rel="stylesheet" href="assets/css/Navbar-Right-Links-icons.css">
     <link rel="stylesheet" href="assets/css/News-article-for-homepage-by-Ikbendiederiknl.css">
-    <link rel="stylesheet" href="assets/css/post.css">
+    <!-- <link rel="stylesheet" href="assets/css/post.css"> -->
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider-swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider.css">
@@ -65,7 +65,44 @@
             <div class="swiper-button-next"></div>
         </div>
     </div>
-    <div class="container" id="deblur-container">
+
+
+    <div  class="deblur-container">
+  
+                <div id="col-left" class ="deblur-item">
+                    <p style="font-family: Oswald, sans-serif;font-weight: bold;font-size: 20px;">Your Low Quality CT Image</p><input type="file" id="myfile">
+                    <p id="info"></p><br><br>
+                </div>
+
+            <div id="col-empty" class ="deblur-item">
+
+            </div>
+            <div id="col-right" class ="deblur-item">
+             
+                    <p style="font-family: Oswald, sans-serif;font-weight: bold;font-size: 20px;">Click the button "Deblur", <br>get high quality CT image</p>
+          
+            </div>
+        
+            <div id="col-blur" class ="deblur-item">
+                <div id="blur-image" class="preview1"></div>
+            </div>
+            <div class="text-center align-self-center deblur-item" id="button-tr">
+                <div>
+                    <div><button class="btn btn-primary" id="transfer" type="button">Deblur</button></div>
+                </div>
+                <div>
+                    <div><button class="btn btn-primary" id="download" type="button" style="pointer-Events:none;">Download</button></div>
+                </div>
+            </div>
+            <div id="col-deblur" class ="deblur-item">
+                <!-- 删除 -->
+                <!-- <div id="blur-image-1" class="preview1"></div> -->
+                <!-- 修改id -->
+                <div id="clear-image" class="preview2"></div>
+            </div>
+        </div>
+ 
+    <!-- <div class="container" id="deblur-container">
         <div class="row">
             <div class="col">
                 <div id="col-left">
@@ -73,9 +110,9 @@
                     <p id="info"></p><br><br>
                 </div>
             </div>
-            <!-- <div id="col-empty">
+            <div id="col-empty">
 
-            </div> -->
+            </div>
             <div class="col" id="col-right">
                 <div>
                     <p style="font-family: Oswald, sans-serif;font-weight: bold;font-size: 20px;">Click the button "Deblur", <br>get high quality CT image</p>
@@ -95,13 +132,12 @@
                 </div>
             </div>
             <div class="col" style="width: 30%;" id="col-deblur">
-                <!-- 删除 -->
-                <!-- <div id="blur-image-1" class="preview1"></div> -->
-                <!-- 修改id -->
+               
+               
                 <div id="clear-image" class="preview2"></div>
             </div>
         </div>
-    </div>
+    </div> -->
     <hr>
     <footer class="text-center py-4">
         <div class="container">
