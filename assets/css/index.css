@@ -1,0 +1,28 @@
+#deblur-container{
+    width: 80%;
+}
+@media (max-width:800px){
+    #deblur-container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    #col-left{
+        grid-row: 1/2;
+    }
+    /* #col-empty{
+        grid-row:2/3;
+    } */
+    #col-right{
+        grid-row:3/4;
+    }
+    #col-blur{
+        grid-row:2/3;
+    }
+    #button-tr{
+        grid-row:4/5;
+    }
+    #col-deblur{
+        grid-row:5/6;
+    }
+}
+

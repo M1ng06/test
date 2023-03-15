@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/css/Navbar-Right-Links-icons.css">
     <link rel="stylesheet" href="assets/css/News-article-for-homepage-by-Ikbendiederiknl.css">
     <link rel="stylesheet" href="assets/css/post.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider-swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider.css">
     <link rel="stylesheet" href="assets/css/Slick-Slider-2-Articale-List-With-Image-Zoom.css">
@@ -41,7 +42,7 @@
             <div class="collapse navbar-collapse" id="navcol-2">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item my-nav"><a class="nav-link active text-bg-primary" href="#" style="color: var(--bs-navbar-color);" data-bs-target="#">Home</a></li>
-                    <li class="nav-item my-nav"><a class="nav-link" href="profile.html" style="color: var(--bs-navbar-color);">Profile</a></li>
+                    <li class="nav-item my-nav"><a class="nav-link" href="profile.html" style="color: var(--bs-navbar-color);">Resume</a></li>
                     <li class="nav-item my-nav"><a class="nav-link" style="color: var(--bs-navbar-color);" href="paper.html">Paper</a></li>
                     <li class="nav-item my-nav"><a class="nav-link active" href="why.html" style="color: var(--bs-navbar-color);width: 80px;">I wish</a></li>
                     <li class="nav-item my-nav"><a class="nav-link active" href="post.html" style="color: var(--bs-navbar-color);">Project Introduction</a></li>
@@ -72,14 +73,17 @@
                     <p id="info"></p><br><br>
                 </div>
             </div>
+            <!-- <div id="col-empty">
+
+            </div> -->
             <div class="col" id="col-right">
                 <div>
-                    <p style="font-weight: bold;font-size: 20px;">Click the button "Deblur", get high quality CT image</p>
+                    <p style="font-family: Oswald, sans-serif;font-weight: bold;font-size: 20px;">Click the button "Deblur", <br>get high quality CT image</p>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col" style="width: 30%;">
+            <div class="col" style="width: 30%;" id="col-blur">
                 <div id="blur-image" class="preview1"></div>
             </div>
             <div class="col text-center align-self-center" id="button-tr" style="width: 20%;">
@@ -90,7 +94,7 @@
                     <div class="col"><button class="btn btn-primary" id="download" type="button" style="pointer-Events:none;">Download</button></div>
                 </div>
             </div>
-            <div class="col" style="width: 30%;">
+            <div class="col" style="width: 30%;" id="col-deblur">
                 <!-- 删除 -->
                 <!-- <div id="blur-image-1" class="preview1"></div> -->
                 <!-- 修改id -->
