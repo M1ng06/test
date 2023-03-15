@@ -34,6 +34,7 @@ function initialization() {
               
               info.innerHTML = para;
               trans.style.pointerEvents = "auto";
+             download.style.pointerEvents="none";
             } else {
               para = `File name: ${file.name} not a valid file type`;
              info.innerHTML=para;
