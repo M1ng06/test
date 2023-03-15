@@ -34,6 +34,7 @@ function initialization() {
               
               info.innerHTML = para;
               trans.style.pointerEvents = "auto";
+              download.style.pointerEvents="none";
             } else {
               para = `File name: ${file.name} not a valid file type`;
              info.innerHTML=para;
@@ -50,6 +51,7 @@ function initialization() {
             var image = document.createElement('img');
             if(curFiles[0].name =="blur1.png")
               {
+                // alert("one");
                 image.src = "assets/img/deblur1.png";
                 clearname = "deblur1";
                 download.style.pointerEvents="auto";
