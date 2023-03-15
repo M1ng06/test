@@ -48,20 +48,20 @@ function initialization() {
               }
               const curFiles = fileInput.files;
             var image = document.createElement('img');
-            if(curFiles[0].name =="cupcake.jpg")
+            if(curFiles[0].name =="blur-1.png")
               {
-                image.src = "assets/img/crayon.jpg";
-                clearname = "crayon-deblur";
+                image.src = "assets/img/deblur-1.png";
+                clearname = "deblur-1";
                 ownload.style.pointerEvents="auto";
               }
-                else if(curFiles[0].name =="daisy.jpg"){
-                  image.src = "assets/img/yellow.jpg";
-                  clearname = "yellow-deblur";
+                else if(curFiles[0].name =="blur-2.png"){
+                  image.src = "assets/img/deblur-2.png";
+                  clearname = "deblur-2";
                   download.style.pointerEvents="auto";
                 }
-                else if(curFiles[0].name =="lotus.jpg"){
-                  image.src = "assets/img/mm.jpg";
-                  clearname = "lotus-deblur";
+                else if(curFiles[0].name =="blur-3.png"){
+                  image.src = "assets/img/deblur-3.png";
+                  clearname = "deblur-3";
                   download.style.pointerEvents="auto";
                 }
                 else{
