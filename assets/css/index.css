@@ -44,7 +44,8 @@
     left: 20%;
     right:20%;
     font-size: 2.5em;
-    text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
+    /* text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue; */
+    text-shadow: 2px 2px  darkblue;
 }
 #index-slider > p{
     position: absolute;
@@ -52,7 +53,7 @@
     left: 20%;
     right: 20%;
     font-size: 1.5em;
-    /* text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue; */
+    text-shadow: 2px 2px  darkblue;
     width: 60%; 
     /* border: 1px solid #000000; */
     word-wrap: break-word;
@@ -99,14 +100,14 @@
 }
 
 #index-slider > h1{
-    top: 50px;
+    top: 30px;
     font-size: 2em;
     left: 10%;
-    right: 10%;
+    /* right: 10%; */
 }
 
 #index-slider > p{
-    top: 150px;
+    top: 120px;
     font-size: 1em;
     left: 10%;
     right: 10%;
