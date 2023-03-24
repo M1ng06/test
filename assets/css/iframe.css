@@ -1,8 +1,8 @@
 iframe {
-  width: 100%;
+  width: 80%;
   height: 450px;
-  border: none;
-  margin: auto;
+  border: 1px red solid;
+  margin-left: 7%;
   overflow: scroll;
 }
 
