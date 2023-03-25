@@ -42,7 +42,7 @@
 }
 
 
-@media (max-width:1200px){
+@media (max-width:820px){
     .pro-container{
    grid-template-columns: auto;
  
