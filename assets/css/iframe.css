@@ -1,8 +1,32 @@
-iframe {
-  width: 80%;
-  height: 450px;
-  border: 1px rgb(0, 255, 119) solid;
-  margin-left: 7%;
-  /* overflow: scroll; */
+
+#div-paper-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 90%;
+  margin: auto;
+  border: 1px black solid;
 }
 
+#div-paper-cover{
+  text-align: center;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+#div-paper-abstract{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  line-height: 2;
+}
+#div-paper-pdflink{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+#paper-cover{
+  width: 100%;
+}
+#p-paper-content{
+  width: 90%;
+  word-break: keep-all;
+  font-size: 0.9em;
+  
+}
